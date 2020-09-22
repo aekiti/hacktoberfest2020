@@ -1,6 +1,6 @@
 ---
 name: Hacktoberfest
-about: Hacktoberfest Online Meetup in Ado-Ekiti
+about: Hacktoberfest in Ado-Ekiti
 title: "[Hacktoberfest]"
 labels: hacktoberfest
 assignees: ''
