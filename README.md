@@ -1,4 +1,4 @@
-# Hacktoberfest in Ado-Ekiti
+# OpenSource with æternity
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/All_Contributors-1-black.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->

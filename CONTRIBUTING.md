@@ -18,17 +18,18 @@ Add them to this list so others can find it too and start contributing.
 
 1. Fork and clone the repository: `gh repo fork aekiti/hacktoberfest2020`.
 2. Create a new branch: `git checkout -b my-branch-name`.
-3. Make your changes to the appropriate sections. 
-> NOTE: If you are not sure about the appropriate sections you can open an [issue](https://github.com/aekiti/hacktoberfest2020/issues/new?assignees=&labels=hacktoberfest&template=hacktoberfest.md&title=%5BHacktoberfest%5D) to discuss with the community.
-4. Commit and push your fork
+3. Add your contribution
+4. Add your profile.
+> NOTE: If you are not sure about how to contribute, you can open an [issue](https://github.com/aekiti/hacktoberfest2020/issues/new?assignees=&labels=hacktoberfest&template=hacktoberfest.md&title=%5BHacktoberfest%5D) to discuss with the community.
+5. Commit and push your fork
 ```bash
 git add .
 git commit -m '@username: Commit message'
 git push origin my-branch-name
 ```
-5. Create a new pull request from your forked repository (Click the New Pull Request button located at the top of your repo)
-6. Star the repository
-7. Pat yourself on the back and wait for your `pull request` to be reviewed and merged.
+6. Create a new pull request from your forked repository (Click the New Pull Request button located at the top of your repo)
+7. Star the repository
+8. Pat yourself on the back and wait for your `pull request` to be reviewed and merged.
 
 ## Resources
 
