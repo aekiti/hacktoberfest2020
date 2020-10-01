@@ -1,7 +1,7 @@
 # Contribution Guidelines
 
 _Welcome contributors! It is **awesome** to have you here! Before you start contributing with this documentation make sure you read our [Code Of Conduct](https://github.com/emmanuelJet/HFA-Doc/blob/master/CODE_OF_CONDUCT.md), it is really important to make this inclusive and open to everyone, otherwise, it would not be awesome_
-This documentation was created to guide attendees of the **Hacktoberfest Online Meetup in Ado-Ekiti(DSC EKSU & ækiti)**.
+This documentation was created to guide attendees of the [Hacktoberfest Online Meetup in Ado-Ekiti](https://organize.mlh.io/participants/events/4592-hacktoberfest-online-meetup-in-ado-ekiti-dsc-eksu-aekiti).
 
 ## Submitting a pull request
 > Tips: Make sure that you are submitting and committing things that are of quality substance, otherwise maintainers can invalidate your pull request. Check the full [contribution guidelines](https://aekiti.github.io/hacktoberfest2020/guildlines/documentation/) for more information.
