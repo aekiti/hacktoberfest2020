@@ -1,8 +1,8 @@
 # Hacktoberfest in Ado-Ekiti
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/All_Contributors-1-black.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
-![Hacktoberfest in Ado-Ekiti](https://s3.amazonaws.com/organizer.mlh.io/3zbGnD7NrxwWkc3n36jw4HBJ?response-content-disposition=inline%3B%20filename%3D%22hfa%201600x840.jpg%22%3B%20filename%2A%3DUTF-8%27%27hfa%25201600x840.jpg&response-content-type=image%2Fjpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJFCF2ZS25I2RWYBQ%2F20200930%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20200930T232141Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=ae3f7f7e72fa2aabfe13350b013841bb967701333632d9cbb5fba536d932a6cd)
+![Hacktoberfest in Ado-Ekiti](https://aekiti.github.io/hacktoberfest2020/assets/images/hfa_1600x840.jpg)
 
 Hacktoberfest Online Meetup in Ado-Ekiti is a collaborative event between the DSC EKSU community and the ækiti community. See the [meetup guide](https://aekiti.github.io/hacktoberfest2020) for more information.
 
