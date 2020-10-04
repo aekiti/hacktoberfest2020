@@ -422,6 +422,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#steps" class="md-nav__link">
+    Steps
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#how-to-contribute" class="md-nav__link">
     How To Contribute
   </a>
@@ -497,6 +504,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#steps" class="md-nav__link">
+    Steps
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#how-to-contribute" class="md-nav__link">
     How To Contribute
   </a>
@@ -545,27 +559,103 @@
 </blockquote>
 <p>Before you start contributing to this project make sure you have read the repository <a href="https://github.com/aekiti/hacktoberfest2020/blob/master/CODE_OF_CONDUCT.md" target="_blank">Code Of Conduct</a>, it is really important to make this inclusive and open to everyone, otherwise, it would not be awesome.</p>
 <p>This <a href="https://github.com/aekiti/hacktoberfest2020" target="_blank">repository</a> was created to get developers going with Open Source during <a href="https://hacktoberfest.digitalocean.com/" target="_blank">Hacktoberfest</a>.</p>
+<h2 id="steps">Steps</h2>
+<ol>
+<li>Fork and Clone the repository</li>
+<li>Create a new branch</li>
+<li>Add your contribution</li>
+<li>Add your profile</li>
+<li>Commit and push your fork</li>
+<li>Create a pull request</li>
+<li>Star the repository</li>
+</ol>
 <h2 id="how-to-contribute">How To Contribute</h2>
 <div class="tabbed-set" data-tabs="1:7"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><label for="__tabbed_1_1">Step 1</label><div class="tabbed-content">
 <p><strong>Fork and Clone the repository</strong></p>
+<p><em>Method 1</em></p>
+<p>To fork and clone the repo easily, execute the below <code>GitHub CLI</code> command:
+<div class="highlight"><pre><span></span><code>gh repo fork DSCEksu/hacktoberfest2020
+</code></pre></div></p>
+<p><em>Method 2</em></p>
+<p>You can also click the <code>Fork</code> button at the right top corner and clone the forked repo using the HTTPS method</p>
 </div>
 <input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><label for="__tabbed_1_2">Step 2</label><div class="tabbed-content">
 <p><strong>Create a new branch</strong></p>
+<p>Creating a new branch for your contributions is essential, execute the below <code>Git</code> command to create your branch 
+<div class="highlight"><pre><span></span><code>git checkout -b my-branch-name
+</code></pre></div></p>
+<blockquote>
+<p>NOTE: The best way to replace the <code>my-branch-name</code> key in the above command is your GitHub username. E.g: aekiti</p>
+</blockquote>
 </div>
 <input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><label for="__tabbed_1_3">Step 3</label><div class="tabbed-content">
 <p><strong>Add your contribution</strong></p>
+<p>Adding your contributions can be done in 3 ways that are categorized in æpps, ærticles, and dæsigns.</p>
+<p><em>æpps</em></p>
+<p>The æpps categories is where you can add æpps built on æternity blockchain. Follow the below steps to add contributions based on this category:</p>
+<ol>
+<li>Locate the <a href="https://github.com/aekiti/hacktoberfest2020/tree/master/contribution/aepps" target="_blank">contribution/aepps</a> directory</li>
+<li>Create a new folder/directory that respresents the æpp name</li>
+<li>Add the codes of the æpp in the newly created directory </li>
+</ol>
+<p><em>ærticles</em></p>
+<p>The ærticles categories is where you can add articles based on æternity blockchain, open source, and hacktoberfest. Follow the below steps to add contributions based on this category:</p>
+<ol>
+<li>Locate the <a href="https://github.com/aekiti/hacktoberfest2020/tree/master/contribution/aerticles" target="_blank">contribution/aerticles</a> directory</li>
+<li>Create a new folder/directory that respresents the ærticle name</li>
+<li>Add the ærticle in either pdf, txt or md format in the newly created directory </li>
+</ol>
+<p><em>dæsigns</em></p>
+<p>The designs categories is where you can add designs based on æternity blockchain, open source, and hacktoberfest. Follow the below steps to add contributions based on this category:</p>
+<ol>
+<li>Locate the <a href="https://github.com/aekiti/hacktoberfest2020/tree/master/contribution/daesigns" target="_blank">contribution/daesigns</a> directory</li>
+<li>Create a new folder/directory that respresents the design name</li>
+<li>Add the design in either png, jpg or jpeg format in the newly created directory </li>
+</ol>
 </div>
 <input id="__tabbed_1_4" name="__tabbed_1" type="radio" /><label for="__tabbed_1_4">Step 4</label><div class="tabbed-content">
 <p><strong>Add your profile</strong></p>
+<p>This is where you add your profile to showcase your contributions. Below is the step to your profile:</p>
+<ol>
+<li>Head to the <a href="https://github.com/aekiti/hacktoberfest2020/tree/master/profile" target="_blank">profile</a> directory.</li>
+<li>Create a markdown file with your GitHub username in the profile directory directory: aekiti.md</li>
+<li>Copy the below snippet and fill the required field accordingly. </li>
+</ol>
+<div class="highlight"><pre><span></span><code>---
+name: FULLNAME-OR-NICKNAME # No longer than 28 characters
+institution: INSTITUTION-NAME 🚩 # No longer than 58 characters
+type: YOUR-CONTRIBUTION-TYPE # Must be in [æpp, ærticle, dæsign]
+link: &lt;TYPE&gt;/&lt;CONTRIBUTION-FOLDER&gt; # Must be your contribution folder location. &lt;TYPE&gt; must be in [aepps, aerticles, daesigns]
+github: YOUR-GITHUB-USERNAME # Must be your GitHub Username with the (@) symbol
+superhero: YOUR-SUPERHERO-PROFILE-LINK # Must be your Superhero profile link
+---
+</code></pre></div>
+
 </div>
 <input id="__tabbed_1_5" name="__tabbed_1" type="radio" /><label for="__tabbed_1_5">Step 5</label><div class="tabbed-content">
 <p><strong>Commit and push your fork</strong></p>
+<p>After adding your contributions, stage, commit and push your contribution to your forked repo with the below steps:</p>
+<ol>
+<li>Staging Changes
+<div class="highlight"><pre><span></span><code>git add .
+</code></pre></div></li>
+<li>Commiting Changes
+<div class="highlight"><pre><span></span><code>git commit -m <span class="s1">&#39;@username: Commit message&#39;</span>
+</code></pre></div></li>
+<li>Pushing Changes
+<div class="highlight"><pre><span></span><code>git push origin my-branch-name
+</code></pre></div></li>
+</ol>
 </div>
 <input id="__tabbed_1_6" name="__tabbed_1" type="radio" /><label for="__tabbed_1_6">Step 6</label><div class="tabbed-content">
 <p><strong>Create a pull request</strong></p>
+<p>With the Step 4, your contributions would now be on your forked GitHub Repo. 
+Now you can submit a new pull request from your forked repository to be merged with main repository by clicking the <code>Compare &amp; pull request</code> button on top of your repo. 
+Then click the <code>Create pull request</code> to create a new pull request</p>
 </div>
 <input id="__tabbed_1_7" name="__tabbed_1" type="radio" /><label for="__tabbed_1_7">Step 7</label><div class="tabbed-content">
 <p><strong>Star the repository</strong></p>
+<p>Now that you have contributed to open source, it'd be nice to star this Repository while your contribution awaits review from the <a href="https://github.com/orgs/aekiti/teams/hacktoberfest2020" target="_blank">team</a></p>
 </div>
 </div>
 <h2 id="resources">Resources</h2>
