@@ -410,6 +410,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#steps" class="md-nav__link">
+    Steps
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#how-to-contribute" class="md-nav__link">
     How To Contribute
   </a>
@@ -497,6 +504,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#steps" class="md-nav__link">
+    Steps
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#how-to-contribute" class="md-nav__link">
     How To Contribute
   </a>
@@ -545,12 +559,21 @@
 </blockquote>
 <p>Before you start contributing to this project make sure you have read the repository <a href="https://github.com/DSCEksu/hacktoberfest2020/blob/master/CODE_OF_CONDUCT.md" target="_blank">Code Of Conduct</a>, it is really important to make this inclusive and open to everyone, otherwise, it would not be awesome.</p>
 <p>This <a href="https://github.com/DSCEksu/hacktoberfest2020" target="_blank">repository</a> was created to get developers going with Open Source during <a href="https://hacktoberfest.digitalocean.com/" target="_blank">Hacktoberfest</a>.</p>
+<h2 id="steps">Steps</h2>
+<ol>
+<li>Fork and Clone the repository</li>
+<li>Create a new branch</li>
+<li>Add your contribution</li>
+<li>Commit and push your fork</li>
+<li>Create a pull request</li>
+<li>Star the repository</li>
+</ol>
 <h2 id="how-to-contribute">How To Contribute</h2>
 <div class="tabbed-set" data-tabs="1:6"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><label for="__tabbed_1_1">Step 1</label><div class="tabbed-content">
 <p><strong>Fork and Clone the repository</strong></p>
 <p><em>Method 1</em></p>
 <p>To fork and clone the repo easily, execute the below <code>GitHub CLI</code> command:
-<div class="highlight"><pre><span></span><code>  gh repo fork DSCEksu/hacktoberfest2020
+<div class="highlight"><pre><span></span><code>gh repo fork DSCEksu/hacktoberfest2020
 </code></pre></div></p>
 <p><em>Method 2</em></p>
 <p>You can also click the <code>Fork</code> button at the right top corner and clone the forked repo using the HTTPS method</p>
@@ -558,7 +581,7 @@
 <input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><label for="__tabbed_1_2">Step 2</label><div class="tabbed-content">
 <p><strong>Create a new branch</strong></p>
 <p>Creating a new branch for your contributions is essential, execute the below <code>Git</code> command to create your branch 
-<div class="highlight"><pre><span></span><code>  git checkout -b my-branch-name
+<div class="highlight"><pre><span></span><code>git checkout -b my-branch-name
 </code></pre></div></p>
 <blockquote>
 <p>NOTE: The best way to replace the <code>my-branch-name</code> key in the above command is your GitHub username. E.g: dsceksu</p>
@@ -585,19 +608,27 @@
 <p>After adding your contributions, stage, commit and push your contribution to your forked repo with the below steps:</p>
 <ol>
 <li>Staging Changes
-<div class="highlight"><pre><span></span><code>  git add .
+<div class="highlight"><pre><span></span><code>git add .
 </code></pre></div></li>
 <li>Commiting Changes
-<div class="highlight"><pre><span></span><code>  git commit -m <span class="s1">&#39;@username: Commit message&#39;</span>
+<div class="highlight"><pre><span></span><code>git commit -m <span class="s1">&#39;@username: Commit message&#39;</span>
 </code></pre></div></li>
 <li>Pushing Changes
-<div class="highlight"><pre><span></span><code>  git push origin my-branch-name
+<div class="highlight"><pre><span></span><code>git push origin my-branch-name
 </code></pre></div></li>
 </ol>
 </div>
 <input id="__tabbed_1_5" name="__tabbed_1" type="radio" /><label for="__tabbed_1_5">Step 5</label><div class="tabbed-content">
 <p><strong>Create a pull request</strong></p>
-<p>With the Step 4, your contributions would now be on your forked GitHub Repo. Now you can submit a new pull request from your forked repository to be merged with main repository. To submit a pull request you can click the the New Pull Request button located at the top of your repo.</p>
+<p>With the Step 4, your contributions would now be on your forked GitHub Repo. Now you can submit a new pull request from your forked repository to be merged with main repository using the below methods:</p>
+<p><em>Method 1</em>
+<div class="highlight"><pre><span></span><code>gh pr create -t <span class="s2">&quot;Pull Request Title&quot;</span> -B upstream:master -H origin:my-branch-name -l hacktoberfest -w
+</code></pre></div></p>
+<p><em>Method 2</em>
+Click the <code>Pull request</code> button located at the top of your repo.</p>
+<blockquote>
+<p>NOTE: The <code>my-branch-name</code> keyword in the above command should be changed as suggested in Step 2.</p>
+</blockquote>
 </div>
 <input id="__tabbed_1_6" name="__tabbed_1" type="radio" /><label for="__tabbed_1_6">Step 6</label><div class="tabbed-content">
 <p><strong>Star the repository</strong></p>
