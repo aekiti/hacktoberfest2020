@@ -1,4 +1,6 @@
-# dæsigns
+# dæsigns contributions
+
+This directory takes all designs on Hacktoberfest, Superhero or æternity blockchain
 
 Check out Step 3 of the full [contribution guideline](https://aekiti.github.io/hacktoberfest2020/guildlines/aekiti/) to learn how to add contribution to this directory
 
